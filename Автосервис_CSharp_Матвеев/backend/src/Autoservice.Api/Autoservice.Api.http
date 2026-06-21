@@ -1,0 +1,22 @@
+@host = http://localhost:5080
+
+GET {{host}}/api/health
+Accept: application/json
+
+###
+GET {{host}}/api/clients?limit=20
+Accept: application/json
+
+###
+POST {{host}}/api/clients
+Content-Type: application/json
+
+{
+  "clientType": "INDIVIDUAL",
+  "displayName": "Тестовый Клиент",
+  "firstName": "Тест",
+  "lastName": "Клиент",
+  "phone": "+79990000000",
+  "email": "client@example.test",
+  "preferredChannel": "PHONE"
+}

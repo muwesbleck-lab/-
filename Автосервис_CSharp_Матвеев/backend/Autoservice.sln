@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autoservice.Api", "src\Autoservice.Api\Autoservice.Api.csproj", "{4D3CF175-1448-4D96-9DCB-8A25A36481BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autoservice.Api.Tests", "tests\Autoservice.Api.Tests\Autoservice.Api.Tests.csproj", "{89B01E4A-9FA7-4C25-A9CD-A4A19DF7CEAC}"
+EndProject
+Global
+    GlobalSection(SolutionConfigurationPlatforms) = preSolution
+        Debug|Any CPU = Debug|Any CPU
+        Release|Any CPU = Release|Any CPU
+    EndGlobalSection
+    GlobalSection(ProjectConfigurationPlatforms) = postSolution
+        {4D3CF175-1448-4D96-9DCB-8A25A36481BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+        {4D3CF175-1448-4D96-9DCB-8A25A36481BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+        {4D3CF175-1448-4D96-9DCB-8A25A36481BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+        {4D3CF175-1448-4D96-9DCB-8A25A36481BA}.Release|Any CPU.Build.0 = Release|Any CPU
+        {89B01E4A-9FA7-4C25-A9CD-A4A19DF7CEAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+        {89B01E4A-9FA7-4C25-A9CD-A4A19DF7CEAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+        {89B01E4A-9FA7-4C25-A9CD-A4A19DF7CEAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+        {89B01E4A-9FA7-4C25-A9CD-A4A19DF7CEAC}.Release|Any CPU.Build.0 = Release|Any CPU
+    EndGlobalSection
+EndGlobal
